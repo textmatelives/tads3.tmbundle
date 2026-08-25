@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/usr/bin/env ruby -wKU
+	<string>#!/usr/bin/env ruby -wEutf-8
 require ENV['TM_SUPPORT_PATH'] + '/lib/escape.rb'
 
 gamename = ENV["TM_TADS3_GAMENAME"] || File.basename(ENV["TM_FILEPATH"], File.extname(ENV["TM_FILEPATH"]))
